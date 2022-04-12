@@ -109,3 +109,7 @@ To encourage quality and consistency within the code base, all code should pass 
 ```
 $ yarn lint
 ```
+
+# Proxying VSAC Requests
+
+Set the environment variable `VSAC_BASE_URL` to modify the base url for all requests. If unset, the base url defaults to "https://vsac.nlm.nih.gov"
